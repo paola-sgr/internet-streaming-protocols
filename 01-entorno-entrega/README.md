@@ -6,7 +6,7 @@ El objetivo es repasar la programación orientada a objetos en Python y el flujo
 
 ## Qué contiene
 
-*Archivo: Descripción:*
+*Archivo: Descripción*
 - `mysound.py`: Clase `Sound`, que guarda muestras de sonido como una lista de enteros. Aquí añadí el método `soundmul`.
 - `show_sound.py`: Programa que muestra un sonido por pantalla (proporcionado en la plantilla).
 - `mysoundsin.py`: Clase `SoundSin`, que hereda de `Sound` y crea directamente una señal sinusoidal.
