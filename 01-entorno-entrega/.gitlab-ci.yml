@@ -1,0 +1,18 @@
+image: "python:3.10-slim"
+
+before_script:
+  - python3 --version
+
+stages:
+  - Check
+
+tests:
+  stage: Check
+  script:
+    - python3 -m unittest discover -s tests
+
+pep8:
+  stage: Check
+  script:
+    - pip install pycodestyle
+    - pycodestyle *.py
